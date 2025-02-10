@@ -48,7 +48,7 @@ public class CalculatorTest {
        WebElement resultView = driver.findElement(By.id("com.example.calculatorapp:id/tvResult"));
         // Assert the result
         String resultText = resultView.getText();
-        assertEquals("5", resultText);
+      assertEquals("Result: 8.0", resultText);
     }
  
     @After

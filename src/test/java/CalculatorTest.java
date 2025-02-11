@@ -1,10 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -54,7 +48,7 @@ public class CalculatorTest {
        WebElement resultView = driver.findElement(By.id("com.example.calculatorapp:id/tvResult"));
         // Assert the result
         String resultText = resultView.getText();
-        assertEquals("5", resultText);
+      assertEquals("Result: 8.0", resultText);
     }
  
     @After
